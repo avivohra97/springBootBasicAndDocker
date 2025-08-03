@@ -89,7 +89,7 @@ This document summarizes the key topics and solutions we covered during our sess
     ```
 
 
-````markdown
+
 # Spring Boot Development Summary
 
 This document serves as a reference for the key Spring Boot concepts and workflows we explored today. It covers important annotations, the architectural pattern we've been following, and the process for integrating with a MySQL database using Docker.
@@ -109,8 +109,8 @@ Marks a class as a service component in the Spring application context. It's use
 public class UserServiceImplDB implements UserService {
     // ... all business logic for user management resides here
 }
-````
 
+```
 ### `@Configuration`
 
 Indicates that a class declares one or more `@Bean` methods and may be processed by the Spring container to generate bean definitions and service requests for those beans at runtime. This is a powerful way to configure your application.
